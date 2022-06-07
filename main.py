@@ -148,6 +148,6 @@ def work3():
         cv2.imwrite(path, img)
 
 if __name__ == '__main__':
-    #work1()
-    #work2()
+    work1()
+    work2()
     work3()
