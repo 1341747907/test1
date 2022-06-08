@@ -99,9 +99,9 @@ class pa_chong(Thread):
 
 def work1():
     name=pachong()
-    t1 = pa_chong(name,'猫',10,'猫')
+    t1 = pa_chong(name,'猫',10,'cat')
     t1.start()
-    t2 = pa_chong(name,'狗',10,'狗')
+    t2 = pa_chong(name,'狗',10,'dog')
     t2.start()
     t1.join()
     t2.join()
@@ -124,7 +124,6 @@ def work2():
         plt.imshow(images[i])
         plt.title(titles[i])
     plt.show()
-    #plt.subplot(2, 3, 1), plt.imshow(images[i])
 
 
 def work3():
